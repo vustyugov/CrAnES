@@ -8,6 +8,6 @@ import java.util.List;
 public interface ScanwordBehavior {
     List<String> getPossibleArrowsForCommentCell(int row, int column);
     List<String> getPossibleCellVariantChanging(int row, int column);
-    void selectArrowInCommentCell (int row, int column, String link);
     void automaticDefinitionArrows();
+    void selectArrowInCommentCell (int row, int column, String link);
 }
